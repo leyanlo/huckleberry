@@ -9,4 +9,32 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+/* Design tokens */
+:root {
+  /* Spacing */
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 48px;
+  --spacing-6: 64px;
+  --spacing-7: 96px;
+  --spacing-8: 128px;
+
+  /* Font */
+  --font-1: 1rem;
+  --font-2: 1.25rem;
+  --font-3: 1.5rem;
+  --font-4: 2rem;
+
+  /* Colors palette */
+  --color-primary: hsl(160, 100%, 30%);
+  --color-secondary-1: hsl(45, 100%, 50%);
+  --color-secondary-2: hsl(45, 100%, 40%);
+  --color-gray-1: hsl(0, 0%, 0%);
+  --color-gray-2: hsl(0, 0%, 10%);
+  --color-gray-3: hsl(0, 0%, 30%);
+  --color-gray-4: hsl(0, 0%, 40%);
+  --color-gray-5: hsl(0, 0%, 60%);
+  --color-gray-6: hsl(0, 0%, 100%);
+}
